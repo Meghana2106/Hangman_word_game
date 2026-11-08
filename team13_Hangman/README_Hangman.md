@@ -28,27 +28,18 @@ its game logic in the browser without Flask.
 
 ## Technologies Used
 
-  -----------------------------------------------------------------------
-  Technology                          Use
-  ----------------------------------- -----------------------------------
-  Python                              Implements the game rules, word
-                                      selection, validation, and
-                                      game-state updates
+  Python : Implements the game rules, word selection, validation, and game-state updates
 
-  Flask                               Runs the web server and provides
-                                      backend API routes
+  Flask :  Runs the web server and provides backend API routes
 
-  HTML                                Defines the game page structure
+  HTML : Defines the game page structure
 
-  CSS                                 Styles the interface and makes the
-                                      layout responsive
+  CSS : Styles the interface and makes the layout responsive
 
-  JavaScript                          Handles keyboard input, API
-                                      requests, and dynamic page updates
+  JavaScript : Handles keyboard input, API requests, and dynamic page updates
 
-  JSON                                Transfers game data between the
-                                      browser and Flask
-  -----------------------------------------------------------------------
+  JSON : Transfers game data between the browser and Flask
+  
 
 ## Project Structure
 
@@ -264,9 +255,3 @@ pip install -r requirements.txt
 Stop the other application using port 5000, or change the port in the
 `app.run(...)` configuration in `app.py`.
 
-## Project
-
-**Team:** Team 13
-
-Add the team members' names and their contributions here before
-publishing, if required.
